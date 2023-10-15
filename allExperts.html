@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Experts</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- ******************  navbar ************** -->
+     
+  <nav class="main-nav">
+    <div class="container main-nav__container flex">
+      <a href="#" class="main-nav__toggle main-nav__link">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+      <a href="#" class="main-nav__logo">
+        <img src="./images/logo.png" alt="company logo">
+      </a>
+
+      <div class="cta-section__searchbar">
+        <form action="" class="cta-section__bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search Mentor">
+        </form>
+      </div>
+
+      <div class="main-nav__links">
+        <div class="flex">
+        <ul class="flex main-naiv__dropdown">
+            <!--navigation links will be generated here -->
+        </ul>
+        </div>
+      </div>   
+           
+    </div>
+  </nav>
+
+  <!-- navigate -->
+
+  <div class="navigation-toggle flex container">
+    <div class="navigation-home">Home</div>
+    <i class="fa-solid fa-angle-right" style="color: #212227;"></i>
+    <div class="navigation-home">Explore Mentor</div>
+  </div>
+
+  <!-- ************* field *****************-->
+  
+  <section class="field container slider">
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Vector.png" alt="It-icon">
+      </div>    
+      <div class="field__text">IT</div>
+    </div>
+
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Vector (1).png" alt="It-icon">
+      </div>    
+      <div class="field__text">Medical</div>
+    </div>
+
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Vector (2).png" alt="It-icon">
+      </div>    
+      <div class="field__text">Teacher</div>
+    </div>
+
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Group.png" alt="It-icon">
+      </div>    
+      <div class="field__text">Research</div>
+    </div>
+
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Group (1).png" alt="It-icon">
+      </div>    
+      <div class="field__text">Agriculture</div>
+    </div>
+
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Vector (3).png" alt="It-icon">
+      </div>    
+      <div class="field__text">Law</div>
+    </div>
+
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Vector (4).png" alt="It-icon">
+      </div>    
+      <div class="field__text">Architect</div>
+    </div>
+
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Group (2).png" alt="It-icon">
+      </div>    
+      <div class="field__text">Journalism</div>
+    </div>
+
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Vector (5).png" alt="It-icon">
+      </div>    
+      <div class="field__text">Finance</div>
+    </div>
+    
+    <div class="field__container">
+      <div class="field__circle">
+        <img src="./images/Vector (6).png" alt="It-icon">
+      </div>    
+      <div class="field__text">Arts</div>
+    </div>
+    
+  </section>
+
+<!-- all experts -->
+
+<div class="allExperts flex">
+  <div class="allExpert-sort" id="sortButton">Sort</div>
+  <i class="fa-solid fa-angle-down" style="color: #212227;"></i>
+
+  <div id="dropdown" class="hidden">
+    <ul>
+        <li><a href="#">Rating (High & Low)</a></li>
+        <li><a href="#">Price (High & Low)</a></li>
+        <li><a href="#">Price (Low & High)</a></li>
+    </ul>
+</div>
+</div>
+
+  <section class="experts-card container">
+    <!-- <div class="allExperts flex">
+      <div class="allExpert-sort">Sort</div>
+      <i class="fa-solid fa-angle-down" style="color: #212227;"></i>
+    </div> -->
+  
+    <div class="experts-card__cards flex" id="AllExperts"></div>
+  </section>
+  
+
+<!-- ****************** font ***********************-->
+<script src="https://kit.fontawesome.com/d4a684e672.js" crossorigin="anonymous"></script>
+
+<script src="allExperts.js"></script>
+
+</body>
+</html>
